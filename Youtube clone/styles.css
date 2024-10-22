@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;padding-left: 45px;
+}
+.container{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+
+}
+
+.image-frame{
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    
+}
+.image-frame h3, p{
+    margin-left: 10px;
+}
+.add-button{
+    height: 35px;
+    width: 140px;
+    margin-left: 12px;
+    border-radius: 6px;
+    background-color: purple;
+}
